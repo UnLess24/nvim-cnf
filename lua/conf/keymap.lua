@@ -88,7 +88,7 @@ map("n", "]c", ":Gitsigns next_hunk<CR>", Opts("Next hunk"))
 map("n", "[c", ":Gitsigns prev_hunk<CR>", Opts("Prev hunk"))
 
 -- Highlight
-map("n", "<C-l>", ":nohls<CR>", Opts("No highlight search"))
+map("n", "<C-n>", ":nohls<CR>", Opts("No highlight search"))
 map("n", "<leader>*", "*N", Opts("Highlight current word"))
 
 -- Set cursor move between windows to arrow keys

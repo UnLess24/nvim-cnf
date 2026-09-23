@@ -3,4 +3,5 @@ vim.g.loaded_netrwPlugin = 1
 
 require "conf.options"
 require "conf.keymap"
+require "conf.autocmd"
 require "conf.lazy_init"
